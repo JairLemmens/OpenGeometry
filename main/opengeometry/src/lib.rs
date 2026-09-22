@@ -48,5 +48,9 @@ pub mod editor;
 pub mod export;
 pub mod freeform;
 pub mod scenegraph;
+<<<<<<< Updated upstream
 pub mod tolerance;
 pub mod units;
+=======
+pub mod bim;
+>>>>>>> Stashed changes
