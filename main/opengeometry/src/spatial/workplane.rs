@@ -91,6 +91,16 @@ impl WorkPlane {
     pub fn normal(&self) -> Vector3 {
         self.normal
     }
+
+    #[wasm_bindgen(getter, js_name = uAxis)]
+    pub fn u_axis_wasm(&self) -> Vector3 {
+        self.u_axis
+    }
+
+    #[wasm_bindgen(getter, js_name = vAxis)]
+    pub fn v_axis_wasm(&self) -> Vector3 {
+        self.v_axis
+    }
 }
 
 impl WorkPlane {

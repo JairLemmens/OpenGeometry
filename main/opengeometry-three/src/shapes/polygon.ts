@@ -73,14 +73,14 @@ export class Polygon extends THREE.Mesh {
   };
   polygon: OGPolygon;
   #outlineMesh: ShapeOutlineMesh | null = null;
-  private _outlineEnabled = false;
+  private _outlineEnabled = true;
   private _fatOutlines = false;
   private _outlineWidth = 1;
   private _outlineColor = 0x000000;
 
   set color(color: number) {
     this.options.color = color;
-    if (this.material instanceof THREE.MeshBasicMaterial) {
+    if (this.material instanceof THREE.MeshStandardMaterial) {
       this.material.color.set(color);
     }
   }
@@ -112,7 +112,7 @@ export class Polygon extends THREE.Mesh {
       scale: this.options.scale?.clone(),
     });
   }
-
+  
   validateOptions() {
     if (!this.options) {
       throw new Error("Options are not defined for Polygon");
@@ -251,7 +251,7 @@ export class Polygon extends THREE.Mesh {
 
     this.writePositionsToGeometry(this.geometry, bufferData);
 
-    if (this.material instanceof THREE.MeshBasicMaterial) {
+    if (this.material instanceof THREE.MeshStandardMaterial) {
       this.material.color.set(this.options.color);
       this.material.side = THREE.DoubleSide;
     } else {
@@ -261,7 +261,7 @@ export class Polygon extends THREE.Mesh {
         this.material.dispose();
       }
 
-      this.material = new THREE.MeshBasicMaterial({
+      this.material = new THREE.MeshStandardMaterial({
         color: this.options.color,
         side: THREE.DoubleSide,
       });

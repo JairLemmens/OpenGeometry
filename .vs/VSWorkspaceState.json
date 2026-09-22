@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\main",
+    "\\main\\opengeometry",
+    "\\main\\opengeometry-three",
+    "\\main\\opengeometry-three\\examples-vite",
+    "\\main\\opengeometry-three\\examples-vite\\playground",
+    "\\main\\opengeometry-three\\scripts",
+    "\\main\\opengeometry\\src",
+    "\\main\\opengeometry\\src\\spatial",
+    "\\main\\opengeometry\\src\\utility"
+  ],
+  "SelectedNode": "\\main\\opengeometry-three\\examples-vite\\playground\\playground.html",
+  "PreviewInSolutionExplorer": false
+}

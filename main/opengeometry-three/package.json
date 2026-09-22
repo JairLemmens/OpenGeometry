@@ -32,6 +32,7 @@
   ],
   "dependencies": {
     "@opengeometry/openmaths": "^0.2.3"
+    
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

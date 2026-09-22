@@ -4,9 +4,9 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "strict": true,
-    "baseUrl": ".",
     "paths": {
-      "@og-three": ["../index.ts"]
+      "@og-three": ["../index.ts"],
+      "opengeometry": ["../index.ts"]
     },
     "types": ["vite/client"],
     "allowSyntheticDefaultImports": true,
@@ -14,5 +14,9 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["src/**/*.ts"]
+  "include": [
+    "./src/**/*.ts",
+    "./playground/**/*.ts",
+    "../src/**/*.ts"
+  ]
 }

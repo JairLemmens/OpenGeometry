@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\loop_cut.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\opengeometry\\src\\editor\\edits\\loop_cut.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\edge_insert.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\opengeometry\\src\\editor\\edits\\edge_insert.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\extrusion.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\opengeometry\\src\\editor\\edits\\extrusion.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\brep\\builder.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\opengeometry\\src\\brep\\builder.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\topology.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\opengeometry\\src\\editor\\edits\\topology.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "loop_cut.rs",
+              "DocumentMoniker": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\loop_cut.rs",
+              "RelativeDocumentMoniker": "main\\opengeometry\\src\\editor\\edits\\loop_cut.rs",
+              "ToolTip": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\loop_cut.rs",
+              "RelativeToolTip": "main\\opengeometry\\src\\editor\\edits\\loop_cut.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-27T15:36:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "edge_insert.rs",
+              "DocumentMoniker": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\edge_insert.rs",
+              "RelativeDocumentMoniker": "main\\opengeometry\\src\\editor\\edits\\edge_insert.rs",
+              "ToolTip": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\edge_insert.rs",
+              "RelativeToolTip": "main\\opengeometry\\src\\editor\\edits\\edge_insert.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-27T15:36:09.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "extrusion.rs",
+              "DocumentMoniker": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\extrusion.rs",
+              "RelativeDocumentMoniker": "main\\opengeometry\\src\\editor\\edits\\extrusion.rs",
+              "ToolTip": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\extrusion.rs",
+              "RelativeToolTip": "main\\opengeometry\\src\\editor\\edits\\extrusion.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-27T15:36:03.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "builder.rs",
+              "DocumentMoniker": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\brep\\builder.rs",
+              "RelativeDocumentMoniker": "main\\opengeometry\\src\\brep\\builder.rs",
+              "ToolTip": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\brep\\builder.rs",
+              "RelativeToolTip": "main\\opengeometry\\src\\brep\\builder.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-27T15:35:22.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "topology.rs",
+              "DocumentMoniker": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\topology.rs",
+              "RelativeDocumentMoniker": "main\\opengeometry\\src\\editor\\edits\\topology.rs",
+              "ToolTip": "C:\\Users\\jairl\\Documents\\GitHub\\OpenGeometry\\main\\opengeometry\\src\\editor\\edits\\topology.rs",
+              "RelativeToolTip": "main\\opengeometry\\src\\editor\\edits\\topology.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-27T15:32:37.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
