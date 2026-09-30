@@ -4,7 +4,6 @@ use crate::spatial::workplane::WorkPlane;
 
 const EPSILON: f64 = 1.0e-12;
 
-
 pub fn dot_3d(a: &Vector3, b: &Vector3) -> f64 {a.x * b.x + a.y * b.y + a.z * b.z}
 
 pub fn cross_product(a: Vector3, b: Vector3) -> Vector3{
@@ -187,7 +186,7 @@ pub fn offset_per_segments(corners: &Vec<(f64, f64)>,offsets: &[f64]) -> Result<
     }   
 
     let count = corners.len();
-
+    
     // Calculate normalized edge tangents and their right-hand
     // perpendicular offset directions.
     let mut tangents = Vec::with_capacity(count);
@@ -220,6 +219,7 @@ pub fn offset_per_segments(corners: &Vec<(f64, f64)>,offsets: &[f64]) -> Result<
     }
 
     let mut result = Vec::with_capacity(count);
+    
 
     for n in 0..count {
         let n1 = (n + 1) % count;
@@ -238,7 +238,6 @@ pub fn offset_per_segments(corners: &Vec<(f64, f64)>,offsets: &[f64]) -> Result<
         );
 
         let tangent_dot = tangents[n].0 * tangents[n1].0 + tangents[n].1 * tangents[n1].1;
-
         if tangent_dot > 0.9 {
             let p1 = (
                 corners[n1].0 + offset_dirs[n].0 * offset_a,
@@ -256,7 +255,6 @@ pub fn offset_per_segments(corners: &Vec<(f64, f64)>,offsets: &[f64]) -> Result<
             }
         }
     }
-
     Ok(result)
 }
 
